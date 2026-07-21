@@ -47,13 +47,13 @@ musicBtn.addEventListener('click', () => {
       console.log('Autoplay diblokir browser, klik lagi untuk memutar musik.');
     });
     musicIcon.textContent = '❚❚';
-    musicText.textContent = 'Sedang Diputar...';
+    musicText.textContent = 'Lagi Diputer nih...';
     equalizer.classList.add('playing');
     isPlaying = true;
   } else {
     bgMusic.pause();
     musicIcon.textContent = '▶';
-    musicText.textContent = 'Putar Lagu Kita';
+    musicText.textContent = 'Puter Lagu Kita Yuk';
     equalizer.classList.remove('playing');
     isPlaying = false;
   }
