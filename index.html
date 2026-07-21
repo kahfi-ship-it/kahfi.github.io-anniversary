@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Anniversary ❤️</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating hearts background -->
+  <div class="floating-hearts" id="floatingHearts"></div>
+
+  <div class="container">
+
+    <!-- HEADER -->
+    <header class="header">
+      <p class="eyebrow">✨ Untuk Cintaku ✨</p>
+      <h1 class="title">Happy Anniversary</h1>
+      <h2 class="subtitle">Us Together ❤️</h2>
+    </header>
+
+    <!-- FOTO UTAMA -->
+    <section class="main-photo-section">
+      <div class="main-photo-wrapper">
+        <img src="foto-kita.jpg.jpeg" alt="Foto Kita" class="main-photo">
+      </div>
+    </section>
+
+    <!-- TOMBOL MUSIK -->
+    <section class="music-section">
+      <button id="musicBtn" class="music-btn">
+        <span id="musicIcon" class="music-icon">▶</span>
+        <span id="musicText">Putar Lagu Kita</span>
+      </button>
+      <audio id="bgMusic" src="lagu-kita.mp3.mp3" loop></audio>
+      <div class="equalizer" id="equalizer">
+        <span></span><span></span><span></span><span></span>
+      </div>
+    </section>
+
+    <!-- COUNTDOWN -->
+    <section class="countdown-section">
+      <h3 class="section-title">Sudah Sejauh Ini Kita Bersama</h3>
+      <div class="countdown-grid">
+        <div class="countdown-box">
+          <span id="days" class="countdown-number">0</span>
+          <span class="countdown-label">Hari</span>
+        </div>
+        <div class="countdown-box">
+          <span id="hours" class="countdown-number">0</span>
+          <span class="countdown-label">Jam</span>
+        </div>
+        <div class="countdown-box">
+          <span id="minutes" class="countdown-number">0</span>
+          <span class="countdown-label">Menit</span>
+        </div>
+        <div class="countdown-box">
+          <span id="seconds" class="countdown-number">0</span>
+          <span class="countdown-label">Detik</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SURAT CINTA -->
+    <section class="letter-section">
+      <h3 class="section-title">Sepucuk Surat Untukmu</h3>
+      <div class="letter-box">
+        <p class="letter-quote">"</p>
+        <p class="letter-text">
+          Terima kasih sudah menemaniku melewati setiap hari, baik yang penuh tawa
+          maupun yang penuh air mata. Bersamamu, waktu terasa begitu berharga dan
+          setiap momen sederhana berubah menjadi kenangan indah yang tak ingin
+          kulupakan. Kamu adalah rumah yang selalu ingin kupulangi, dan cinta yang
+          selalu ingin kuperjuangkan. Selamat hari jadi kita, sayang. Mari terus
+          bertumbuh bersama, saling menguatkan, dan mencintai dengan cara yang
+          semakin dalam dari hari ke hari. Aku mencintaimu, hari ini, esok, dan
+          selamanya.
+        </p>
+        <p class="letter-signature">Dengan cinta, <br> Aku yang selalu menyayangimu 💕</p>
+      </div>
+    </section>
+
+    <!-- GALERI FOTO -->
+    <section class="gallery-section">
+      <h3 class="section-title">Momen-Momen Indah Kita</h3>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="foto1.jpg.jpg" alt="Momen Indah 1">
+        </div>
+        <div class="gallery-item">
+          <img src="foto2.jpg.jpg" alt="Momen Indah 2">
+        </div>
+        <div class="gallery-item">
+          <img src="foto 3.jpg.jpg" alt="Momen Indah 3">
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Made with 💗 for you, forever and always.</p>
+    </footer>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
