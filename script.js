@@ -3,7 +3,7 @@
    Format: TAHUN, BULAN (0=Jan, 11=Des), TANGGAL, JAM, MENIT
    Contoh: 14 Februari 2023 jam 00:00 => new Date(2023, 1, 14, 0, 0, 0)
    ========================================================= */
-const anniversaryDate = new Date(2026, 6, 25, 0, 0, 0);
+const anniversaryDate = new Date(2023, 6, 25, 0, 0, 0);
 
 
 /* ============ COUNTDOWN ============ */
